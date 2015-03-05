@@ -25,7 +25,7 @@ func killquery(db *sql.DB, qid int,qinfo sql.NullString) {
 func main() {
 
 	if (len(os.Args) < 2 ) {
-		fmt.Println("Usage: ", os.Args[0] ," <SECONDS>")
+		fmt.Println("Usage: ", os.Args[0] ," <SECONDS> \n")
 		os.Exit(2)
 	}
 
